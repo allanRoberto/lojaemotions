@@ -1,0 +1,273 @@
+.login-form  label {
+	background: #f3f3f4;
+	border-radius : 5px;
+	text-align : center !important;
+	line-height : 35px;
+	padding-top : 0px !important;
+	@extend .helvetica;
+	@extend .texto-cinza;
+}
+
+.login-form #lwa_wp-submit {
+	border : 0px;
+	color: #fff;
+	background-color: #b74164;
+	border: 0px;
+	border-radius : 5px;
+	line-height : 29px;
+	width : 100%;
+	text-transform: uppercase;
+}
+
+.blockUI.blockOverlay{
+  background: rgba(255,255,255,0.4) !important;
+}
+
+.login-access {
+	margin-bottom : 100px;
+}
+
+.total-order-box {
+	width: 100%;
+	background : #f3f3f4;
+	border-radius : 30px;
+	padding : 15px;
+	display: table;
+}
+
+.total-order-box #order_review {
+	width : 100% !important;
+
+}
+
+#order_review .shop_table {
+	width : 100% !important;
+	margin-bottom: 0px !important;
+}
+
+.total-order-box #order_review .cart_item {
+	display: none !important;
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table thead {
+	display: none !important;
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot th {
+	@extend .helvetica;
+	@extend .texto-cinza;
+	@extend .col-md-6;
+	font-size: 22px;
+	text-transform: uppercase;
+
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr {
+    height: 50px;
+	border-bottom : 1px dashed #eaeaea;
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot td {
+	@extend .helvetica;
+	@extend .texto-cinza;
+	@extend .col-md-6;
+	font-size: 22px;
+	text-align: right;
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr.cart-subtotal td,
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr.order-total th,
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr.order-total td {
+	@extend .texto-rosa;
+}
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr.shipping td {
+	font-size : 9px;
+	text-align: right;
+}	
+
+.total-order-box #order_review  .woocommerce-checkout-review-order-table tfoot tr.shipping td .woocommerce-Price-amount.amount {
+	font-size : 20px !important;
+	width : 100%;
+	display : table;
+}
+
+.billing-fields {
+	margin-top : 10px;
+	width: 100%;
+	border-radius : 30px;
+	padding : 15px;
+	display: table;
+	border : 2px solid #f3f3f4;
+}
+
+.shipping-fields-checkout {
+ margin-top : 0px !important;
+}
+
+.billing-fields .woocommerce-billing-fields h3, .billing-fields h3{
+	@extend .hugs;
+	@extend .texto-cinza;
+	font-size : 29px;
+}
+
+.billing-fields .form-row {
+	margin-top: 20px;
+	border-bottom : 1px dashed #f3f3f4;
+	padding-bottom : 10px;
+}
+
+.billing-fields .form-row:last-child, #billing_state_field {
+	border-bottom : 0px !important;
+}
+
+.billing-fields .input-text  {
+	border: 2px solid #f3f3f4;
+    height: 38px;
+    border-radius: 16px;
+    padding-left : 10px;
+    color : #939597;
+}
+
+.select2-container {
+	height : 35px;
+}
+
+.select2-container .select2-choice {
+	height: 35px;
+    line-height: 33px;
+    border-radius: 16px;
+}
+
+.billing-fields label {
+	@extend .helvetica;
+	@extend .texto-cinza;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+.billing-fields .input-text {
+	box-shadow: none !important;
+}
+
+
+.billing-fields #billing_country_field, #shipping_country_field {
+	display: none;
+}
+
+.billing-fields #order_comments {
+	height : 130px;
+	padding: 20px;
+}
+
+
+#pagseguro-payment-methods {
+	background: #f3f3f4;
+    width: 100%;
+    padding: 0 15px 20px !important;
+    border-radius: 0px 0px 20px 20px;
+    text-transform: uppercase;
+    @extend .helvetica;
+    @extend .texto-cinza;
+}
+
+#pagseguro-payment-methods li {
+   width : 100%;
+   float : left;
+   border : 0px !important;
+}
+
+#pagseguro-payment-methods li.active:before {
+     content: "\f192" !important;
+	color: #b74164;
+	color: #b74164;
+    display: inline-block;
+    font: normal normal normal 1em/1 FontAwesome;
+    font-size: inherit;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\f10c";
+    margin-right: .53em;
+    -webkit-transition: color,ease,.2s;
+    -moz-transition: color,ease,.2s;
+    transition: color,ease,.2s;
+    float: left;
+    top: 10px;
+    position: relative;
+}
+
+.payment_method_paypal p{
+	display: none !important;
+}
+
+#payment .payment_methods li .payment_box {
+	padding : 0px !important;
+}
+
+#payment .payment_methods li .payment_box p:first-child {
+	@extend .hugs;
+	color : #939597 !important;
+	font-size : 29px;
+	background : #f3f3f4;
+	padding : 15px 15px 0px 15px;
+	border-radius : 20px 20px 0 0;
+}
+
+.pagseguro-method-form p{
+	background: #fff !important; 
+	font-family : "Helvetica Neue", sans-serif !important;
+	font-size : 14px !important;
+	padding : 0px !important;
+}
+
+#payment .payment_methods li .payment_box fieldset {
+	padding-top : 0px !important;
+}
+
+#payment .payment_methods li .payment_box fieldset label {
+	margin-left: 0px;
+	padding-left: 0px !important;
+	float: left;
+	@extend .helvetica;
+	@extend .texto-cinza;
+	text-transform: uppercase;
+	font-size: 11px;
+}
+
+#payment .form-row-first, #payment .form-row-last {
+	width : 100%;
+}
+
+.pagseguro-method-form {
+	display: table;
+    border: 2px solid #f3f3f4;
+    border-radius: 20px;
+    padding: 15px;
+}
+
+
+.pagseguro-method-form .input-text {
+	border : 2px solid #f3f3f4;
+	border-radius : 20px;
+	padding : 0px 8px !important;
+	font-size : 14px !important;
+	height : 38px;
+}
+
+.pagseguro-method-form .input-text {
+	box-shadow: none !important;
+}
+
+#payment .form-row.place-order {
+  padding : 0px !important;
+  margin-top : 10px;
+}
+#payment .place-order .button {
+	@extend .helvetica;
+	color : #fff !important;
+	background: #b74164;
+    border-radius: 20px;
+    border: 0px;
+    padding: 8px;
+    text-transform: uppercase;
+}

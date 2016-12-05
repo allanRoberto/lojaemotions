@@ -1,0 +1,248 @@
+.container-login {
+	width: 70%;
+	margin:60px auto !important;
+	display: table;
+}
+
+.woocommerce-error, 
+.woocommerce-info, 
+.woocommerce-message, 
+.woocommerce-noreviews {
+	margin-top : 50px;
+}
+
+.woocommerce-error, 
+.woocommerce-info {
+	background: #b74164 !important;
+	padding: 10px;
+	border-radius : 10px !important;
+	border : 0px !important;
+	text-transform: uppercase;
+	color : #fff !important;
+}
+
+.woocommerce-account #primary{
+	margin: 60px auto;
+}
+.woocommerce-account form.login,
+.woocommerce-account form.lost_reset_password,
+.woocommerce-account form.register {
+	border : 2px solid #f3f3f4;
+	border-radius : 10px;
+	padding : 15px 20px;
+}
+
+.woocommerce-account form.login input[type="text"], 
+.woocommerce-account form.login input[type="email"],
+.woocommerce-account form.login input[type="password"],
+.woocommerce-account form.register input[type="text"], 
+.woocommerce-account form.register input[type="email"],
+.woocommerce-account form.register input[type="password"],
+.woocommerce-account form.lost_reset_password input[type="text"], 
+.woocommerce-account form.lost_reset_password input[type="email"],
+.woocommerce-account form.lost_reset_password input[type="password"] {
+	width: 100%;
+	border-radius : 10px;
+	border: 2px solid #f3f3f4;
+	height : 35px;
+	padding-left : 10px;
+}
+
+.woocommerce-account form.login label,
+.woocommerce-account form.register label, 
+.woocommerce-account form.lost_reset_password label {
+	@extend .helvetica;
+	@extend .texto-cinza;
+	margin-top : 10px;
+}
+
+.woocommerce-account form.login .button,
+.woocommerce-account form.register .button,
+.woocommerce-account form.lost_reset_password .button {
+	margin-top : 20px;
+	color : #fff;
+	text-transform: uppercase;
+}
+
+.woocommerce-account form.login .lost-password a {
+	text-decoration: none;
+	@extend .texto-cinza;
+}
+
+.wc-social-login-profile {
+	display: none;
+}
+ .woocommerce-account .woocommerce-MyAccount-content p {
+   background: transparent;
+ }
+
+ .woocommerce-account .woocommerce-MyAccount-content p label {
+ 	@extend .helvetica;
+ 	@extend .texto-cinza;
+ }
+
+
+ .woocommerce-account .woocommerce-MyAccount-content .input-text {
+ 	@extend .form-control;
+ } 
+
+ .woocommerce-Address address {
+ 	@extend .texto-cinza;
+ }
+
+  .woocommerce-edit-address p {
+    color : #939597 !important;
+  }
+ .addresses header.title h1 {
+ 	margin-bottom : 0px !important;
+ }
+  .addresses header.title a {
+  	text-indent: initial !important;
+    width: 100% !important;
+    float: left !important;
+    display: block;
+    height: auto !important;
+    text-align: center;
+    margin-bottom : 18px !important;
+  }
+   .addresses header.title a:before {
+    text-align: center;
+    text-indent: 0;
+    display: inline;
+    margin-right: 10px;   
+    position: relative !important;
+    width: auto !important;
+}
+
+.woocommerce-account .button {
+	background: #b74164;
+	padding: 10px !important;
+	border-radius : 10px;
+	border : 0px !important;
+    border-bottom : 5px solid #88374f !important;
+	text-transform: uppercase;
+	@extend .helvetica;
+	color : #fff;
+	font-size : 13px !important;
+}
+
+.woocommerce-account .button:hover {
+	text-decoration: none;
+}
+
+.woocommerce-account .button.disabled {
+	background : #939597;
+}
+
+
+.line-separator-register {
+	border-top: 2px dashed #f3f3f4;
+	width: 100%;
+	margin-top : 15px;
+}
+.woocommerce-MyAccount-navigation {
+	@extend .col-md-4;
+}
+
+.woocommerce-MyAccount-navigation ul li a:before {
+	content : none !important;
+}
+
+.woocommerce-MyAccount-navigation ul li {
+	background : #f3f3f4;
+	border-radius : 10px;
+	border : 0px !important;
+	margin: 10px 0;
+	text-align: center;
+}
+
+.woocommerce-MyAccount-navigation ul li a {
+	@extend .helvetica;
+	@extend .texto-cinza;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.woocommerce-MyAccount-navigation ul li.is-active {
+	background : #6bb1ab;
+}
+
+.woocommerce-MyAccount-navigation ul li.is-active a {
+	color : #fff !important;
+}
+
+.woocommerce-MyAccount-navigation-link--downloads {
+	display: none;
+}
+
+.navigation-status {
+	@extend .col-md-12;
+}
+
+.navigation-status li {
+  float: left;
+    list-style: none;
+    margin-right: 4%;
+    width: 16%;
+    text-align: center;
+    color: #939597;
+    font-size: 12px;
+}
+
+
+.navigation-status li img {
+	-webkit-filter: grayscale(100%); /* Chrome, Safari, Opera */
+    filter: grayscale(100%);
+}
+
+
+.navigation-status li.active img, .navigation-status li.active .title-order-status {
+	-webkit-filter: grayscale(0%); /* Chrome, Safari, Opera */
+    filter: grayscale(0%);
+    @extend .texto-rosa;
+    @extend .hugs;
+    font-size : 20px;
+}
+
+.shop_table.customer_details {
+	@extend .col-md-9;
+}
+
+.navigation-status li .title-order-status {
+	margin-top: 10px;
+    width: 100%;
+    border-top: 1px dashed #939597;
+    display: block;
+    padding-top: 10px;
+}
+
+
+.status-order {
+	background: #f3f3f4;
+	color : #939597;
+	text-transform: uppercase;
+	@extend .helvetica;
+	padding : 15px;
+	border-radius : 10px;
+	display: inline-block;
+	margin-top: 10px;
+}
+
+.info-order {
+	width : 100%;
+	float: left;
+	margin-top : 30px;
+	margin-bottom : 30px;
+
+}
+
+.info-order span {
+	width: 100%;
+	float: left;
+	@extend .helvetica;
+	@extend .texto-cinza;
+}
+
+.info-order span mark {
+	background : transparent !important;
+	font-weight : 800 !important;
+}

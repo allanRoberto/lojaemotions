@@ -1,0 +1,40 @@
+a.btn.btn-info.btn-lg{
+    font-family: "Open Sans", sans-serif;
+    font-size: 14px;
+    height: 20px;
+    color: rgb(255,255,255);
+    background-color: rgb(232, 126, 4);
+    text-decoration: none;
+}
+
+.main-wrapper{
+    min-height: 100%;
+    position: relative;
+    overflow: hidden;
+    width: 99%;
+
+}
+.main-wrapper iframe {
+    position: absolute; height: 100% !important;
+    width: 100% !important;
+    background: #fff !important
+}
+/*html, body, iframe { height: 100%;}*/
+.main-app-wrapper {
+    border: 0px solid red;
+    width: 96%;
+    min-height: 535px;
+    margin: 20px auto;
+    background: #fff;
+    padding: 20px;
+    -webkit-border-radius: 7px;
+    -moz-border-radius: 7px;
+    border-radius: 7px;
+}
+
+.main-app-content {
+    background: #fff;
+    min-height: 445px;
+    border: 1px solid #f0f1f5;
+    padding-top: 15px;
+}

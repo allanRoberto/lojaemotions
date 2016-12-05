@@ -1,0 +1,25 @@
+@font-face {
+	font-family: 'Helvetica Neue';
+	src: url('../fonts/HelveticaNeue-Light.eot');
+	src: url('../fonts/HelveticaNeue-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/HelveticaNeue-Light.woff') format('woff'),
+		url('../fonts/HelveticaNeue-Light.ttf') format('truetype');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+    font-family: 'hugs_and_kisses_xoxo_demoRg';
+    src: url('../fonts/hugs__kisses_xoxo_demo-webfont.woff2') format('woff2'),
+         url('../fonts/hugs__kisses_xoxo_demo-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+.helvetica {
+	font-family: 'Helvetica Neue';
+}
+
+.hugs {
+	font-family: 'hugs_and_kisses_xoxo_demoRg';
+}

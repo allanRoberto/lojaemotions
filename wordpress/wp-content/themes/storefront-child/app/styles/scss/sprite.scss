@@ -1,0 +1,155 @@
+/*
+Icon classes can be used entirely standalone. They are named after their original file names.
+
+Example usage in HTML:
+
+`display: block` sprite:
+<div class="icon-home"></div>
+
+To change `display` (e.g. `display: inline-block;`), we suggest using a common CSS class:
+
+// CSS
+.icon {
+  display: inline-block;
+}
+
+// HTML
+<i class="icon icon-home"></i>
+*/
+
+
+.sprite {
+    background-image: url(../images/sprite.png);
+    display: inline-block;
+}
+
+.icon-arrow-blue-left {
+  background-position: -617px -308px;
+  width: 43px;
+  height: 41px;
+}
+.icon-arrow-blue-right {
+  background-position: -574px -308px;
+  width: 43px;
+  height: 41px;
+}
+.icon-arrow-left {
+  background-position: -390px -354px;
+  width: 41px;
+  height: 41px;
+}
+.icon-arrow-lightblue-right {
+  background-position: -466px -224px;
+  width: 70px;
+  height: 68px;
+}
+.icon-arrow-right {
+  background-position: -660px -308px;
+  width: 41px;
+  height: 41px;
+}
+.icon-btn-eu-quero {
+  background-position: -559px -154px;
+  width: 86px;
+  height: 58px;
+}
+.icon-btn-navigation-next {
+  background-position: -480px -308px;
+  width: 47px;
+  height: 41px;
+}
+.icon-btn-navigation-prev {
+  background-position: -527px -308px;
+  width: 47px;
+  height: 41px;
+}
+.icon-btn-sale {
+  background-position: -391px -224px;
+  width: 75px;
+  height: 75px;
+}
+.icon-cart-hover {
+  background-position: -390px -308px;
+  width: 45px;
+  height: 46px;
+}
+.icon-content-delivery {
+  background-position: -391px 0px;
+  width: 337px;
+  height: 154px;
+}
+.icon-content-discont {
+  background-position: 0px -154px;
+  width: 380px;
+  height: 154px;
+}
+.icon-content-payment {
+  background-position: 0px 0px;
+  width: 391px;
+  height: 154px;
+}
+.icon-delete-product {
+  background-position: -594px -224px;
+  width: 55px;
+  height: 53px;
+}
+.icon-header-cart {
+  background-position: -536px -224px;
+  width: 58px;
+  height: 58px;
+}
+.icon-header-email {
+  background-position: -694px -248px;
+  width: 26px;
+  height: 17px;
+}
+.icon-header-facebook {
+  background-position: -703px -178px;
+  width: 22px;
+  height: 24px;
+}
+.icon-header-instagran {
+  background-position: -703px -154px;
+  width: 22px;
+  height: 24px;
+}
+.icon-header-list-favorite {
+  background-position: -645px -154px;
+  width: 58px;
+  height: 58px;
+}
+.icon-header-logo {
+  background-position: -391px -154px;
+  width: 168px;
+  height: 70px;
+}
+.icon-header-phone {
+  background-position: -701px -308px;
+  width: 15px;
+  height: 22px;
+}
+.icon-header-search {
+  background-position: -431px -354px;
+  width: 35px;
+  height: 35px;
+}
+.icon-header-twitter {
+  background-position: -694px -224px;
+  width: 22px;
+  height: 24px;
+}
+.icon-list-favorite {
+  background-position: -649px -224px;
+  width: 45px;
+  height: 46px;
+}
+.icon-payment-methods {
+  background-position: 0px -308px;
+  width: 390px;
+  height: 131px;
+}
+.icon-view-product {
+  background-position: -435px -308px;
+  width: 45px;
+  height: 46px;
+}
